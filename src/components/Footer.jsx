@@ -3,8 +3,9 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer-container">
+    <div className="footer-wrapper">
+      <footer className="footer">
+        <div className="footer-container">
         {/* Top Row */}
         <div className="footer-top">
           <div className="footer-left">
@@ -62,9 +63,10 @@ const Footer = () => {
               <a href="#" className="social-icon linkedin">in</a>
             </div>
           </div>
-        </div>
-      </div>
-    </footer>
+         </div>
+       </div>
+     </footer>
+    </div>
   );
 };
 

@@ -2,6 +2,9 @@
 .homepage {
   /* No margin needed since hero section accounts for navbar height */
 }
+body{
+    background-color: white;
+}
 
 /* Hero Section */
 .hero-section {

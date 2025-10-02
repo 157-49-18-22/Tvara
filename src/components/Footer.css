@@ -1,9 +1,22 @@
+/* Footer Wrapper */
+.footer-wrapper {
+  background-color: #1F7AEC;
+  padding: 20px 0;
+  margin-top: 0;
+  width: 100%;
+  margin-top: 100px;
+
+  
+}
+
 /* Footer Styles */
 .footer {
   background-color: #0A2E5C;
   color: white;
   padding: 60px 80px 40px 80px;
-  margin-top: 0;
+  margin: 20px 40px;
+  border-radius: 40px;
+  margin-bottom: -20px;
 }
 
 .footer-container {
@@ -206,8 +219,13 @@
 
 /* Responsive Design */
 @media (max-width: 1200px) {
+  .footer-wrapper {
+    padding: 15px 0;
+  }
+  
   .footer {
     padding: 50px 40px 30px 40px;
+    margin: 15px 30px;
   }
   
   .footer-top {
@@ -220,8 +238,13 @@
 }
 
 @media (max-width: 768px) {
+  .footer-wrapper {
+    padding: 10px 0;
+  }
+  
   .footer {
     padding: 40px 20px 30px 20px;
+    margin: 10px 20px;
   }
   
   .footer-top {
@@ -282,8 +305,13 @@
 }
 
 @media (max-width: 480px) {
+  .footer-wrapper {
+    padding: 8px 0;
+  }
+  
   .footer {
     padding: 30px 15px 25px 15px;
+    margin: 8px 15px;
   }
   
   .brand-name {
