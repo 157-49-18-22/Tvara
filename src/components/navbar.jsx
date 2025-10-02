@@ -14,7 +14,8 @@ const Navbar = () => {
         {/* Logo */}
         <div className="navbar-logo">
           <a href="/" className="logo-link">
-            tvaraindia
+            <span className="logo-tvara">tvar</span>
+            <span className="logo-india">aindia</span>
           </a>
         </div>
 
@@ -30,9 +31,7 @@ const Navbar = () => {
             <li className="navbar-item">
               <a href="/services" className="navbar-link">Services</a>
             </li>
-            <li className="navbar-item">
-              <a href="/contact" className="navbar-link">Contact</a>
-            </li>
+            
           </ul>
         </div>
 
