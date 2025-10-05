@@ -8,9 +8,9 @@ body{
 
 /* Hero Section */
 .hero-section {
-  height: 73vh;
+  height: 77vh;
   background-image: url('/bg.png');
-  background-size: contain;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
