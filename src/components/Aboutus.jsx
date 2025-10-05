@@ -41,7 +41,7 @@ const Aboutus = () => {
         {/* Hero Section */}
         <section className="hero-section1">
           <div className="hero-content">
-            <h1 className="hero-title">Connecting businesses globally, one shipment at a time</h1>
+            <h1 className="hero-title2">Connecting businesses globally, one shipment at a time</h1>
             <p className="hero-subtitle">With decades of logistics expertise and a global network, we ensure your cargo reaches every corner of the world safely and efficiently.</p>
             <a href="/quote" className="hero-cta-btn">Get a Quote</a>
           </div>

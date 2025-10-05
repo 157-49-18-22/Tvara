@@ -34,11 +34,14 @@ const Homepage = () => {
               </p>
               <div className="about-features">
                 <div className="feature-item">
-                  <div className="feature-icon">🌐</div>
+                <div className="feature-icon">
+  <img src="/icon98.png" alt="Swift Air Cargo Background" />
+</div>
+
                   <span>Global Network & Expertise</span>
                 </div>
                 <div className="feature-item">
-                  <div className="feature-icon">📱</div>
+                  <div className="feature-icon">  <img src="/icon99.png" alt="Swift Air Cargo Background" /></div>
                   <span>Real-Time Tracking & Support</span>
                 </div>
               </div>
@@ -136,7 +139,7 @@ const Homepage = () => {
               
               <div className="benefits-list">
                 <div className="benefit-item">
-                  <div className="benefit-icon">👁️</div>
+                  <div className="benefit-icon"><img src="/icon12.png" alt="Swift Air Cargo Background" /></div>
                   <div className="benefit-text">
                     <h3 className="benefit-title">End-to-End Visibility</h3>
                     <p className="benefit-description">
@@ -146,7 +149,7 @@ const Homepage = () => {
                 </div>
 
                 <div className="benefit-item">
-                  <div className="benefit-icon">🛡️</div>
+                  <div className="benefit-icon"><img src="/icon13.png" alt="Swift Air Cargo Background" /></div>
                   <div className="benefit-text">
                     <h3 className="benefit-title">Risk-Free Handling</h3>
                     <p className="benefit-description">
@@ -156,7 +159,7 @@ const Homepage = () => {
                 </div>
 
                 <div className="benefit-item">
-                  <div className="benefit-icon">📈</div>
+                  <div className="benefit-icon"><img src="/icon14.png" alt="Swift Air Cargo Background" /></div>
                   <div className="benefit-text">
                     <h3 className="benefit-title">Scalable Solutions</h3>
                     <p className="benefit-description">

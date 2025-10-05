@@ -12,7 +12,7 @@ const Services = () => {
         {/* Hero Section */}
         <section className="hero-section2">
           <div className="hero-content">
-            <h1 className="hero-title">Your Trusted Partner in Global Trade</h1>
+            <h1 className="hero-title3">Your Trusted Partner in Global Trade</h1>
             <p className="hero-subtitle">Providing end-to-end freight forwarding solutions across air, sea, and land, ensuring your shipments reach every corner of the world safely, on time, and efficiently.</p>
             <a href="/quote" className="hero-cta-btn">Get a Quote</a>
           </div>
@@ -30,19 +30,19 @@ const Services = () => {
               <div className="trust-cards-section">
                 <div className="trust-cards-grid">
                   <div className="trust-card">
-                    <div className="trust-icon">🌐</div>
+                    <div className="trust-icon"><img src="/basil_globe-outline.png" alt="Swift Air Cargo Background" /></div>
                     <h3 className="trust-card-title">Global Network</h3>
                     <p className="trust-card-description">Seamless import and export services across 50+ countries with trusted partners.</p>
                   </div>
                   
                   <div className="trust-card">
-                    <div className="trust-icon">⏰</div>
+                    <div className="trust-icon"><img src="/Group.png" alt="Swift Air Cargo Background" /></div>
                     <h3 className="trust-card-title">On-Time Delivery</h3>
                     <p className="trust-card-description">Efficient logistics operations ensure your shipments reach their destination safely and on schedule.</p>
                   </div>
                   
                   <div className="trust-card">
-                    <div className="trust-icon">⚙️</div>
+                    <div className="trust-icon"><img src="/Group (1).png" alt="Swift Air Cargo Background" /></div>
                     <h3 className="trust-card-title">Advanced Technology</h3>
                     <p className="trust-card-description">Real-time tracking, digital dashboards, and tech-driven logistics for transparency and control.</p>
                   </div>

@@ -42,8 +42,8 @@ body{
   text-align: left;
 }
 
-.hero-title {
-  font-size: 3.5rem;
+.hero-title3 {
+  font-size: 2.2rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
   line-height: 1.2;
@@ -53,7 +53,7 @@ body{
 }
 
 .hero-subtitle {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: 2.5rem;
   opacity: 0.95;
   max-width: 600px;
@@ -747,7 +747,7 @@ body{
     padding: 0 30px;
   }
   
-  .hero-title {
+  .hero-title3 {
     font-size: 2.5rem;
   }
   
@@ -902,7 +902,7 @@ body{
 }
 
 @media (max-width: 480px) {
-  .hero-title {
+  .hero-title3 {
     font-size: 2rem;
   }
   
