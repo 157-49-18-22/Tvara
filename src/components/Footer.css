@@ -306,50 +306,112 @@
 
 @media (max-width: 480px) {
   .footer-wrapper {
-    padding: 8px 0;
+    padding: 10px 0;
+    margin-top: 60px;
   }
   
   .footer {
-    padding: 30px 15px 25px 15px;
-    margin: 8px 15px;
+    padding: 25px 15px 20px 15px;
+    margin: 10px 15px;
+    border-radius: 20px;
+  }
+
+  /* Top Section */
+  .footer-top {
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 25px;
+  }
+
+  .footer-left {
+    gap: 15px;
   }
   
   .brand-name {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   
   .brand-tvara {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
   
   .brand-india {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
   
   .footer-nav {
-    flex-direction: column;
-    gap: 15px;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
   }
   
   .nav-link {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
-  
-  .newsletter-text {
-    font-size: 0.95rem;
+
+  /* Newsletter Section */
+  .footer-right {
+    width: 100%;
   }
-  
-  .legal-links {
-    flex-direction: column;
+
+  .newsletter-section {
     gap: 15px;
   }
   
-  .legal-link {
+  .newsletter-text {
     font-size: 0.85rem;
+    line-height: 1.5;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .email-input {
+    padding: 11px 14px;
+    font-size: 0.9rem;
+    width: 92%;
+  }
+
+  .subscribe-btn {
+    padding: 11px 20px;
+    font-size: 0.9rem;
+    width: 100%;
+  }
+
+  /* Bottom Section */
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    padding-top: 15px;
+  }
+
+  .footer-bottom-left {
+    gap: 12px;
+    width: 100%;
+  }
+
+  .footer-bottom-right {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  
+  .legal-links {
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .legal-link {
+    font-size: 0.8rem;
   }
   
   .copyright p {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
   
   .social-icons {
@@ -357,8 +419,8 @@
   }
   
   .social-icon {
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
     font-size: 0.85rem;
   }
 }
