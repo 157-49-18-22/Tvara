@@ -3,6 +3,15 @@ import Navbar from './navbar';
 import Testi from './Testi';
 import Footer from './Footer';
 import './Homepage.css';
+import {
+  AnimatedSection,
+  AnimatedDiv,
+  AnimatedCard,
+  AnimatedTitle,
+  AnimatedText,
+  StaggeredContainer,
+  StaggeredItem
+} from './Animations';
 
 const Homepage = () => {
   return (
@@ -10,54 +19,63 @@ const Homepage = () => {
       <Navbar />
       <div className="homepage">
         {/* Hero Section */}
-        <section className="hero-section">
+        <AnimatedSection className="hero-section">
           <div className="hero-content">
-            <h1 className="hero-title">Moving your world with speed and reliability</h1>
-            <p className="hero-subtitle">From sea to sky, we connect your business to the world with secure and seamless logistics.</p>
-            <a href="/quote" className="hero-cta-btn">Get a Quote</a>
+            <AnimatedDiv variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
+              <h1 className="hero-title">Moving your world with speed and reliability</h1>
+            </AnimatedDiv>
+            <AnimatedDiv delay={0.2} variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
+              <p className="hero-subtitle">From sea to sky, we connect your business to the world with secure and seamless logistics.</p>
+            </AnimatedDiv>
+            <AnimatedDiv delay={0.4} variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
+              <a href="/quote" className="hero-cta-btn">Get a Quote</a>
+            </AnimatedDiv>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* About Us Section */}
-        <section className="about-section">
+        <AnimatedSection className="about-section">
           <div className="about-container">
-            <div className="about-image">
+            <AnimatedDiv className="about-image" delay={0.1}>
               <img src="/Img Content.png" alt="Warehouse and logistics" />
-            </div>
+            </AnimatedDiv>
             <div className="about-content">
-              <h2 className="about-heading">About Us</h2>
-              <h3 className="about-title">Your Logistics Partner Beyond Borders</h3>
-              <p className="about-description">
-                We are more than just freight forwarders—we are your partners in global trade. 
-                With a strong network, advanced technology, and years of expertise, we ensure 
+              <AnimatedTitle className="about-heading" delay={0.2}>About Us</AnimatedTitle>
+              <AnimatedTitle className="about-title" delay={0.3}>Your Logistics Partner Beyond Borders</AnimatedTitle>
+              <AnimatedText className="about-description" delay={0.4}>
+                We are more than just freight forwarders—we are your partners in global trade.
+                With a strong network, advanced technology, and years of expertise, we ensure
                 every shipment reaches its destination on time, safely, and efficiently.
-              </p>
-              <div className="about-features">
-                <div className="feature-item">
-                <div className="feature-icon">
-  <img src="/icon98.png" alt="Swift Air Cargo Background" />
-</div>
-
+              </AnimatedText>
+              <StaggeredContainer className="about-features">
+                <StaggeredItem className="feature-item">
+                  <div className="feature-icon">
+                    <img src="/icon98.png" alt="Swift Air Cargo Background" />
+                  </div>
                   <span>Global Network & Expertise</span>
-                </div>
-                <div className="feature-item">
-                  <div className="feature-icon">  <img src="/icon99.png" alt="Swift Air Cargo Background" /></div>
+                </StaggeredItem>
+                <StaggeredItem className="feature-item">
+                  <div className="feature-icon">
+                    <img src="/icon99.png" alt="Swift Air Cargo Background" />
+                  </div>
                   <span>Real-Time Tracking & Support</span>
-                </div>
-              </div>
-              <a href="/about" className="learn-more-btn">Learn More</a>
+                </StaggeredItem>
+              </StaggeredContainer>
+              <AnimatedDiv delay={0.6}>
+                <a href="/about" className="learn-more-btn">Learn More</a>
+              </AnimatedDiv>
             </div>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* Solutions Section */}
-        <section className="solutions-section">
+        <AnimatedSection className="solutions-section">
           <div className="solutions-container">
-            <h2 className="solutions-title">
+            <AnimatedTitle className="solutions-title" delay={0.1}>
               <span className="blue-text">Solutions</span> <span className="dark-text">That Keep You Moving</span>
-            </h2>
-            <div className="solutions-grid">
-              <div className="solution-card">
+            </AnimatedTitle>
+            <StaggeredContainer className="solutions-grid">
+              <AnimatedCard className="solution-card" delay={0.2}>
                 <div className="card-background">
                   <img src="/img.png" alt="Swift Air Cargo Background" className="card-bg-image" />
                   <div className="card-icon">
@@ -71,9 +89,9 @@ const Homepage = () => {
                   </p>
                   <a href="/air-cargo" className="read-more-btn">Read More →</a>
                 </div>
-              </div>
+              </AnimatedCard>
 
-              <div className="solution-card">
+              <AnimatedCard className="solution-card" delay={0.3}>
                 <div className="card-background">
                   <img src="/img (1).png" alt="Sea Freight Background" className="card-bg-image" />
                   <div className="card-icon">
@@ -87,9 +105,9 @@ const Homepage = () => {
                   </p>
                   <a href="/sea-freight" className="read-more-btn">Read More →</a>
                 </div>
-              </div>
+              </AnimatedCard>
 
-              <div className="solution-card">
+              <AnimatedCard className="solution-card" delay={0.4}>
                 <div className="card-background">
                   <img src="/img (2).png" alt="Land Transport Background" className="card-bg-image" />
                   <div className="card-icon">
@@ -103,9 +121,9 @@ const Homepage = () => {
                   </p>
                   <a href="/land-transport" className="read-more-btn">Read More →</a>
                 </div>
-              </div>
+              </AnimatedCard>
 
-              <div className="solution-card">
+              <AnimatedCard className="solution-card" delay={0.5}>
                 <div className="card-background">
                   <img src="/img (3).png" alt="Warehousing Background" className="card-bg-image" />
                   <div className="card-icon">
@@ -119,26 +137,28 @@ const Homepage = () => {
                   </p>
                   <a href="/warehousing" className="read-more-btn">Read More →</a>
                 </div>
-              </div>
-            </div>
+              </AnimatedCard>
+            </StaggeredContainer>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* Section 4 */}
-        <section className="section-4">
+        <AnimatedSection className="section-4">
           <div className="section-4-container">
-            <img src="/Section 4.png" alt="Section 4" className="section-4-image" />
+            <AnimatedDiv delay={0.2}>
+              <img src="/Section 4.png" alt="Section 4" className="section-4-image" />
+            </AnimatedDiv>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* Why Ship With Us Section */}
-        <section className="why-ship-section">
+        <AnimatedSection className="why-ship-section">
           <div className="why-ship-container">
             <div className="why-ship-content">
-              <h2 className="why-ship-title">Why Ship With Us?</h2>
-              
-              <div className="benefits-list">
-                <div className="benefit-item">
+              <AnimatedTitle className="why-ship-title" delay={0.1}>Why Ship With Us?</AnimatedTitle>
+
+              <StaggeredContainer className="benefits-list">
+                <StaggeredItem className="benefit-item">
                   <div className="benefit-icon"><img src="/icon12.png" alt="Swift Air Cargo Background" /></div>
                   <div className="benefit-text">
                     <h3 className="benefit-title">End-to-End Visibility</h3>
@@ -146,9 +166,9 @@ const Homepage = () => {
                       From pickup to delivery, monitor every step of your shipment journey with ease.
                     </p>
                   </div>
-                </div>
+                </StaggeredItem>
 
-                <div className="benefit-item">
+                <StaggeredItem className="benefit-item">
                   <div className="benefit-icon"><img src="/icon13.png" alt="Swift Air Cargo Background" /></div>
                   <div className="benefit-text">
                     <h3 className="benefit-title">Risk-Free Handling</h3>
@@ -156,9 +176,9 @@ const Homepage = () => {
                       Insured cargo and secure packaging ensure your goods always arrive safely.
                     </p>
                   </div>
-                </div>
+                </StaggeredItem>
 
-                <div className="benefit-item">
+                <StaggeredItem className="benefit-item">
                   <div className="benefit-icon"><img src="/icon14.png" alt="Swift Air Cargo Background" /></div>
                   <div className="benefit-text">
                     <h3 className="benefit-title">Scalable Solutions</h3>
@@ -166,18 +186,20 @@ const Homepage = () => {
                       Logistics tailored to fit small businesses or enterprise-level global trade.
                     </p>
                   </div>
-                </div>
-              </div>
+                </StaggeredItem>
+              </StaggeredContainer>
             </div>
 
-            <div className="why-ship-image">
+            <AnimatedDiv className="why-ship-image" delay={0.3}>
               <img src="/Rectangle 1.png" alt="Logistics Illustration" className="logistics-image" />
-            </div>
+            </AnimatedDiv>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* Testimonials Section */}
-        <Testi />
+        <AnimatedSection delay={0.2}>
+          <Testi />
+        </AnimatedSection>
       </div>
       
       {/* Footer */}

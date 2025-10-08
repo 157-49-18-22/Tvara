@@ -71,9 +71,7 @@ const Navbar = () => {
           <li className="mobile-menu-item">
             <a href="/services" className="mobile-menu-link" onClick={toggleMenu}>Services</a>
           </li>
-          <li className="mobile-menu-item">
-            <a href="/contact" className="mobile-menu-link" onClick={toggleMenu}>Contact</a>
-          </li>
+         
           <li className="mobile-menu-item">
             <a href="/quote" className="mobile-menu-link cta-mobile" onClick={toggleMenu}>Get a Quote</a>
           </li>

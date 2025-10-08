@@ -490,6 +490,7 @@
     .about-image {
       order: 2;
       padding: 20px 0;
+      margin-top: 25px;
     }
 
     .about-image img {

@@ -603,7 +603,7 @@ body{
   .card-icon {
     width: 60px;
     height: 60px;
-    bottom: -20px;
+    bottom: -10px;
   }
   
   .card-icon img {
@@ -658,7 +658,7 @@ body{
 
   .hero-section::before {
     width: 100%;
-    background: linear-gradient(100deg, rgba(37, 99, 235, 0.8) 0%, rgba(59, 130, 246, 0.65) 40%, rgba(147, 197, 253, 0.4) 80%, transparent 100%);
+height: 80%;
   }
 
   .hero-content {
@@ -698,9 +698,9 @@ body{
   }
 
   .about-container {
-    display: grid !important;
-    grid-template-columns: 45% 55% !important;
-    gap: 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
     min-height: auto;
     padding: 0 12px;
     align-items: center;
@@ -708,26 +708,33 @@ body{
 
   .about-image {
     padding: 0 !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    order: 1 !important;
+    position: relative !important;
   }
 
   .about-image img {
-    width: 95% !important;
+    width: 85% !important;
     height: auto !important;
-    max-height: 160px !important;
+    max-height: 200px !important;
     margin: 0 !important;
     margin-left: 0 !important;
     margin-top: 0 !important;
-    object-fit: contain;
+    object-fit: contain !important;
+    display: block !important;
   }
 
   .about-content {
-    padding: 5px 8px !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 15px 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    width: 100% !important;
+    order: 2 !important;
+    position: relative !important;
   }
 
   .about-heading {
@@ -735,13 +742,13 @@ body{
     margin-bottom: 0.3rem;
     letter-spacing: 0.5px;
   }
-  
+
   .about-title {
     font-size: 0.85rem;
     margin-bottom: 0.4rem;
     line-height: 1.15;
   }
-  
+
   .about-description {
     font-size: 0.6rem;
     line-height: 1.35;
