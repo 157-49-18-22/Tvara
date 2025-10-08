@@ -535,12 +535,13 @@
 
   .contact-hero-section::before {
     width: 100%;
-    background: linear-gradient(180deg, rgba(37, 99, 235, 0.7) 0%, rgba(59, 130, 246, 0.5) 50%, rgba(147, 197, 253, 0.3) 100%);
+height: 70%;
   }
 
   .contact-hero-content {
     padding: 0 20px;
     text-align: center;
+  
   }
 
   .contact-hero-title {
@@ -573,7 +574,7 @@
   }
 
   .contact-info-cards-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
     text-align: center;
   }
@@ -624,7 +625,161 @@
   }
 
   .contact-form-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 14px 16px 14px 45px;
+    font-size: 0.95rem;
+    border-radius: 8px;
+  }
+
+  .form-icon {
+    left: 14px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .form-group textarea {
+    padding: 14px 16px;
+    min-height: 100px;
+    margin-top: 0.5rem;
+  }
+
+  .submit-btn {
+    padding: 14px 28px;
+    font-size: 15px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+
+  /* Map Section - Mobile */
+  .map-section {
+    padding: 40px 0;
+  }
+
+  .map-container {
+    padding: 0 15px;
+  }
+
+  .map-content {
+    height: 250px;
+    border-radius: 12px;
+  }
+}
+
+/* Mobile Responsive - 480px */
+@media (max-width: 480px) {
+  /* Contact Hero Section - Mobile */
+  .contact-hero-section {
+    height: 27vh;
+    min-height: 346px;
+    margin-top: -60px;
+    padding-top: 60px;
+    background-position: center right;
+    background-size: contain;
+  }
+
+  .contact-hero-section::before {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(37, 99, 235, 0.7) 0%, rgba(59, 130, 246, 0.5) 50%, rgba(147, 197, 253, 0.3) 100%);
+  }
+
+  .contact-hero-content {
+    padding: 0 20px;
+    text-align: left;
+    position: relative;
+    z-index: 10;
+    max-width: 85%;
+    margin-bottom: 71px;
+  }
+
+  .contact-hero-title {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.25;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    max-width: 90%;
+  }
+
+  .contact-hero-subtitle {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+    max-width: 85%;
+  }
+
+  .contact-hero-cta-btn {
+    padding: 12px 26px;
+    font-size: 9px;
+    border-radius: 6px;
+  }
+
+  /* Contact Info Cards - Mobile */
+  .contact-info-cards-section {
+    padding: 40px 0;
+  }
+
+  .contact-info-cards-container {
+    padding: 0 15px;
+  }
+
+  .contact-info-cards-title {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .contact-cards-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .contact-card {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .contact-card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* Contact Form - Mobile */
+  .contact-form-section {
+    padding: 40px 0;
+  }
+
+  .contact-form-container {
+    padding: 0 15px;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .contact-form-right {
+    display: none;
+  }
+
+  .contact-form {
+    width: 100%;
+    margin-left: 0;
+    padding: 25px 20px;
+    border-radius: 12px;
+  }
+
+  .contact-form-title {
+    font-size: 1.4rem;
     margin-bottom: 1.5rem;
     text-align: center;
   }

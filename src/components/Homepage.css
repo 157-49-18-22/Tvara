@@ -387,7 +387,7 @@ body{
 
 .solution-card-title-alt {
   color: #1f2937;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.3;
@@ -551,7 +551,7 @@ body{
   }
   
   .hero-title {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   
   .hero-subtitle {
@@ -666,14 +666,17 @@ height: 80%;
     text-align: left;
     margin: 0;
     max-width: 100%;
+    position: relative;
+    z-index: 10;
   }
 
   .hero-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     line-height: 1.3;
     font-weight: 700;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    max-width: 85%;
   }
   
   .hero-subtitle {
@@ -682,7 +685,7 @@ height: 80%;
     line-height: 1.5;
     opacity: 1;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
-    max-width: 100%;
+    max-width: 80%;
   }
   
   .hero-cta-btn {
