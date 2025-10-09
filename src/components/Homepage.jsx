@@ -87,7 +87,7 @@ const Homepage = () => {
                   <p className="solution-description">
                     Fast, secure, and flexible air cargo solutions for time-sensitive shipments worldwide.
                   </p>
-                  <a href="/air-cargo" className="read-more-btn">Read More →</a>
+                  <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
               </AnimatedCard>
 
@@ -103,7 +103,7 @@ const Homepage = () => {
                   <p className="solution-description">
                     Cost-efficient FCL and LCL services with reliable global carrier partnerships.
                   </p>
-                  <a href="/sea-freight" className="read-more-btn">Read More →</a>
+                  <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
               </AnimatedCard>
 
@@ -119,7 +119,7 @@ const Homepage = () => {
                   <p className="solution-description">
                     Seamless trucking and rail networks connecting ports to final destinations.
                   </p>
-                  <a href="/land-transport" className="read-more-btn">Read More →</a>
+                  <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
               </AnimatedCard>
 
@@ -135,7 +135,7 @@ const Homepage = () => {
                   <p className="solution-description">
                     Scalable storage with real-time inventory management and distribution support.
                   </p>
-                  <a href="/warehousing" className="read-more-btn">Read More →</a>
+                  <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
               </AnimatedCard>
             </StaggeredContainer>

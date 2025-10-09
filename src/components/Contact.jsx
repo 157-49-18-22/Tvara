@@ -27,7 +27,13 @@ const Contact = () => {
               <p className="contact-hero-subtitle">Connect with our logistics experts for personalized freight forwarding solutions tailored to your business needs.</p>
             </AnimatedDiv>
             <AnimatedDiv delay={0.4} variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
-              <a href="#contact-form" className="contact-hero-cta-btn">Request Quote</a>
+              <a href="#contact-form" className="contact-hero-cta-btn" onClick={(e) => {
+                e.preventDefault();
+                document.getElementById('contact-form')?.scrollIntoView({ 
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }}>Request Quote</a>
             </AnimatedDiv>
           </div>
         </AnimatedSection>
@@ -79,10 +85,10 @@ const Contact = () => {
        
 
         {/* Contact Form Section */}
-        <AnimatedSection className="contact-form-section">
+        <AnimatedSection className="contact-form-section" id="contact-form">
           <div className="contact-form-container">
             <AnimatedDiv className="contact-form-left" delay={0.2}>
-              <form className="contact-form">
+              <form className="contact-form" action="https://formspree.io/f/mnngbkzl" method="POST">
                 <AnimatedTitle className="contact-form-title" delay={0.1}>Your Details</AnimatedTitle>
                 <div className="form-row">
                   <div className="form-group">
