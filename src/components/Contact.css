@@ -2,7 +2,7 @@
 
 /* Contact Hero Section */
 .contact-hero-section {
-  height: 73vh;
+  height: 82vh;
   background-image: url('/New991.png');
   background-size: cover;
   background-position: center;
@@ -567,6 +567,7 @@ height: 70%;
   /* Contact Info Cards - Mobile */
   .contact-info-cards-section {
     padding: 40px 0;
+    margin-top: -100px;
   }
 
   .contact-info-cards-container {

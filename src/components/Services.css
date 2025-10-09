@@ -8,7 +8,7 @@ body{
 
 /* Hero Section */
 .hero-section2 {
-  height: 73vh;
+  height: 88vh;
   background-image: url('/New99.jpg');
   background-size: cover;
   background-position: center;
@@ -759,6 +759,7 @@ body{
     grid-template-columns: 1fr;
     gap: 0;
     min-height: auto;
+    margin-top: -105px;
   }
   
   .about-content {
@@ -954,6 +955,7 @@ body{
   .why-businesses-trust-section {
     padding: 45px 0;
     background: linear-gradient(135deg, #0A2E5C 0%, #1e3a8a 100%);
+    margin-top: -100px;
   }
 
   .why-businesses-container {
