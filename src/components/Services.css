@@ -931,7 +931,7 @@ body{
   }
 
   .hero-title3 {
-     font-size: 1.14rem;
+     font-size: 1rem;
     margin-bottom: 1rem;
     line-height: 1.25;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
@@ -939,18 +939,17 @@ body{
   }
 
   .hero-subtitle {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     margin-bottom: 1.5rem;
     line-height: 1.5;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     max-width: 85%;
   }
-
   .hero-cta-btn {
-    padding: 12px 26px;
-    font-size: 14px;
+    padding: 7px 15px;
+    font-size: 10px;
     border-radius: 6px;
-  }
+}
 
   /* Why Businesses Trust Us - Mobile */
   .why-businesses-trust-section {
