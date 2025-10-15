@@ -759,7 +759,7 @@ body{
     grid-template-columns: 1fr;
     gap: 0;
     min-height: auto;
-    margin-top: -105px;
+    margin-top: -20px;
   }
   
   .about-content {
@@ -955,7 +955,7 @@ body{
   .why-businesses-trust-section {
     padding: 45px 0;
     background: linear-gradient(135deg, #0A2E5C 0%, #1e3a8a 100%);
-    margin-top: -100px;
+    margin-top: -24px;
   }
 
   .why-businesses-container {
