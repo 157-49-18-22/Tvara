@@ -664,4 +664,153 @@
       border-radius: 8px;
     }
   }
-  
+
+/* Who We Serve Section */
+.who-we-serve-section {
+  padding: 20px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%);
+}
+
+.who-we-serve-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.who-we-serve-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.who-we-serve-subtitle {
+  font-size: 1.1rem;
+  color: #64748b;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.client-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+.client-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(37, 99, 235, 0.15);
+  border-color: #2563eb;
+}
+
+.client-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
+}
+
+.client-icon img {
+  width: 40px;
+  height: 40px;
+  filter: brightness(0) invert(1);
+}
+
+.client-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+}
+
+.client-description {
+  font-size: 0.95rem;
+  color: #64748b;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Mobile Responsive - Who We Serve */
+@media (max-width: 768px) {
+  .who-we-serve-section {
+    padding: 30px 0;
+  }
+
+  .who-we-serve-container {
+    padding: 0 20px;
+  }
+
+  .who-we-serve-title {
+    font-size: 2rem;
+  }
+
+  .who-we-serve-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .clients-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .client-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .client-icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .client-icon img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .client-title {
+    font-size: 1.2rem;
+  }
+
+  .client-description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .who-we-serve-section {
+    padding: 30px 0;
+  }
+
+  .who-we-serve-title {
+    font-size: 1.6rem;
+  }
+
+  .who-we-serve-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .client-card {
+    padding: 1.5rem 1rem;
+  }
+}

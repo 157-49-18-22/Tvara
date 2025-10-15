@@ -22,10 +22,10 @@ const Homepage = () => {
         <AnimatedSection className="hero-section">
           <div className="hero-content">
             <AnimatedDiv variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
-              <h1 className="hero-title">Moving your world with speed and reliability</h1>
+              <h1 className="hero-title">Your Trusted Import Freight Partner from Asia to India</h1>
             </AnimatedDiv>
             <AnimatedDiv delay={0.2} variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
-              <p className="hero-subtitle">From sea to sky, we connect your business to the world with secure and seamless logistics.</p>
+              <p className="hero-subtitle">Backed by 25 years of logistics expertise, we specialize in import freight forwarding from China, Vietnam, Thailand & Malaysia to India.</p>
             </AnimatedDiv>
             <AnimatedDiv delay={0.4} variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
               <a href="/quote" className="hero-cta-btn">Get a Quote</a>
@@ -41,24 +41,25 @@ const Homepage = () => {
             </AnimatedDiv>
             <div className="about-content">
               <AnimatedTitle className="about-heading" delay={0.2}>About Us</AnimatedTitle>
-              <AnimatedTitle className="about-title" delay={0.3}>Your Logistics Partner Beyond Borders</AnimatedTitle>
+              <AnimatedTitle className="about-title" delay={0.3}>25 Years of Import Excellence</AnimatedTitle>
               <AnimatedText className="about-description" delay={0.4}>
-                We are more than just freight forwarders—we are your partners in global trade.
-                With a strong network, advanced technology, and years of expertise, we ensure
-                every shipment reaches its destination on time, safely, and efficiently.
+                Tvara Freight Solutions Pvt. Ltd. is a specialist import freight forwarder based in Northern India.
+                With 2½ decades of logistics experience, we focus exclusively on import freight forwarding from
+                China, Vietnam, Thailand and Malaysia into India. Our deep roots in customs clearance and multi-modal
+                logistics deliver reliable, cost-efficient, end-to-end import solutions.
               </AnimatedText>
               <StaggeredContainer className="about-features">
                 <StaggeredItem className="feature-item">
                   <div className="feature-icon">
-                    <img src="/icon98.png" alt="Swift Air Cargo Background" />
+                    <img src="/icon98.png" alt="Import Expertise" />
                   </div>
-                  <span>Global Network & Expertise</span>
+                  <span>25 Years Import Experience</span>
                 </StaggeredItem>
                 <StaggeredItem className="feature-item">
                   <div className="feature-icon">
-                    <img src="/icon99.png" alt="Swift Air Cargo Background" />
+                    <img src="/icon99.png" alt="Customs Clearance" />
                   </div>
-                  <span>Real-Time Tracking & Support</span>
+                  <span>Expert Customs Clearance Since 2006</span>
                 </StaggeredItem>
               </StaggeredContainer>
               <AnimatedDiv delay={0.6}>
@@ -72,7 +73,7 @@ const Homepage = () => {
         <AnimatedSection className="solutions-section">
           <div className="solutions-container">
             <AnimatedTitle className="solutions-title" delay={0.1}>
-              <span className="blue-text">Solutions</span> <span className="dark-text">That Keep You Moving</span>
+              <span className="blue-text">Import Services</span> <span className="dark-text">Tailored for Your Business</span>
             </AnimatedTitle>
             <StaggeredContainer className="solutions-grid">
               <AnimatedCard className="solution-card" delay={0.2}>
@@ -83,9 +84,9 @@ const Homepage = () => {
                   </div>
                 </div>
                 <div className="card-content">
-                  <h3 className="solution-card-title">Swift Air Cargo</h3>
+                  <h3 className="solution-card-title">Import Air Freight</h3>
                   <p className="solution-description">
-                    Fast, secure, and flexible air cargo solutions for time-sensitive shipments worldwide.
+                    Consolidated and express air freight imports from Asia to India for time-sensitive cargo.
                   </p>
                   <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
@@ -99,9 +100,9 @@ const Homepage = () => {
                   </div>
                 </div>
                 <div className="card-content">
-                  <h3 className="solution-card-title">Sea Freight</h3>
+                  <h3 className="solution-card-title">Import Ocean Freight</h3>
                   <p className="solution-description">
-                    Cost-efficient FCL and LCL services with reliable global carrier partnerships.
+                    FCL/LCL door-to-door and port-to-port import solutions from China, Vietnam, Thailand & Malaysia.
                   </p>
                   <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
@@ -115,9 +116,9 @@ const Homepage = () => {
                   </div>
                 </div>
                 <div className="card-content">
-                  <h3 className="solution-card-title">Land Transport</h3>
+                  <h3 className="solution-card-title">Customs Clearance</h3>
                   <p className="solution-description">
-                    Seamless trucking and rail networks connecting ports to final destinations.
+                    Expert customs brokerage, documentation, duty assessment and statutory compliance since 2006.
                   </p>
                   <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
@@ -131,9 +132,9 @@ const Homepage = () => {
                   </div>
                 </div>
                 <div className="card-content">
-                  <h3 className="solution-card-title">Warehousing</h3>
+                  <h3 className="solution-card-title">Inland Haulage</h3>
                   <p className="solution-description">
-                    Scalable storage with real-time inventory management and distribution support.
+                    Coordinated delivery to ICDs and final consignee locations across Northern India.
                   </p>
                   <a href="/services" className="read-more-btn">Read More →</a>
                 </div>
@@ -155,35 +156,65 @@ const Homepage = () => {
         <AnimatedSection className="why-ship-section">
           <div className="why-ship-container">
             <div className="why-ship-content">
-              <AnimatedTitle className="why-ship-title" delay={0.1}>Why Ship With Us?</AnimatedTitle>
+              <AnimatedTitle className="why-ship-title" delay={0.1}>Why Choose Tvara?</AnimatedTitle>
 
               <StaggeredContainer className="benefits-list">
                 <StaggeredItem className="benefit-item">
-                  <div className="benefit-icon"><img src="/icon12.png" alt="Swift Air Cargo Background" /></div>
+                  <div className="benefit-icon"><img src="/icon12.png" alt="Experience" /></div>
                   <div className="benefit-text">
-                    <h3 className="benefit-title">End-to-End Visibility</h3>
+                    <h3 className="benefit-title">25 Years of Proven Track Record</h3>
                     <p className="benefit-description">
-                      From pickup to delivery, monitor every step of your shipment journey with ease.
+                      Cumulative industry experience across customs clearance and freight forwarding since 2006.
                     </p>
                   </div>
                 </StaggeredItem>
 
                 <StaggeredItem className="benefit-item">
-                  <div className="benefit-icon"><img src="/icon13.png" alt="Swift Air Cargo Background" /></div>
+                  <div className="benefit-icon"><img src="/icon13.png" alt="Regulatory Expertise" /></div>
                   <div className="benefit-text">
-                    <h3 className="benefit-title">Risk-Free Handling</h3>
+                    <h3 className="benefit-title">Deep Regulatory Expertise</h3>
                     <p className="benefit-description">
-                      Insured cargo and secure packaging ensure your goods always arrive safely.
+                      Expert knowledge of Indian customs procedures, documentation and compliance.
                     </p>
                   </div>
                 </StaggeredItem>
 
                 <StaggeredItem className="benefit-item">
-                  <div className="benefit-icon"><img src="/icon14.png" alt="Swift Air Cargo Background" /></div>
+                  <div className="benefit-icon"><img src="/icon14.png" alt="Import Focus" /></div>
                   <div className="benefit-text">
-                    <h3 className="benefit-title">Scalable Solutions</h3>
+                    <h3 className="benefit-title">Dedicated Import Focus</h3>
                     <p className="benefit-description">
-                      Logistics tailored to fit small businesses or enterprise-level global trade.
+                      Structured solely for import freight forwarding with sharper processes and cost control.
+                    </p>
+                  </div>
+                </StaggeredItem>
+
+                <StaggeredItem className="benefit-item">
+                  <div className="benefit-icon"><img src="/icon12.png" alt="Vendor Network" /></div>
+                  <div className="benefit-text">
+                    <h3 className="benefit-title">Established Vendor & Carrier Relationships</h3>
+                    <p className="benefit-description">
+                      Strong partnerships in Asia providing competitive freight rates and reliable space allocation.
+                    </p>
+                  </div>
+                </StaggeredItem>
+
+                <StaggeredItem className="benefit-item">
+                  <div className="benefit-icon"><img src="/icon13.png" alt="Transparent Pricing" /></div>
+                  <div className="benefit-text">
+                    <h3 className="benefit-title">Transparent Pricing & Detailed Quotations</h3>
+                    <p className="benefit-description">
+                      Clear breakups for ocean/air, destination charges, inland haulage and customs.
+                    </p>
+                  </div>
+                </StaggeredItem>
+
+                <StaggeredItem className="benefit-item">
+                  <div className="benefit-icon"><img src="/icon14.png" alt="Customer Service" /></div>
+                  <div className="benefit-text">
+                    <h3 className="benefit-title">Customer-Centric Service</h3>
+                    <p className="benefit-description">
+                      Proactive communication, shipment tracking and problem resolution at every step.
                     </p>
                   </div>
                 </StaggeredItem>

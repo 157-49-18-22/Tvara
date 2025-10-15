@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="footer-right">
             <div className="newsletter-section">
               <p className="newsletter-text">
-                Stay connected with the latest in logistics, supply chain innovations, and special service offers.
+                Stay connected with the latest in import freight forwarding, Asia-India trade updates, and special service offers.
               </p>
               <div className="newsletter-form">
                 <input 

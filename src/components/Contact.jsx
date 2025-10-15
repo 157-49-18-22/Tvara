@@ -21,10 +21,10 @@ const Contact = () => {
         <AnimatedSection className="contact-hero-section">
           <div className="contact-hero-content">
             <AnimatedDiv variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
-              <h1 className="contact-hero-title">Get Your Quote Today</h1>
+              <h1 className="contact-hero-title">Get Your Import Quote Today</h1>
             </AnimatedDiv>
             <AnimatedDiv delay={0.2} variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
-              <p className="contact-hero-subtitle">Connect with our logistics experts for personalized freight forwarding solutions tailored to your business needs.</p>
+              <p className="contact-hero-subtitle">Connect with our import freight experts for personalized solutions from China, Vietnam, Thailand & Malaysia to India.</p>
             </AnimatedDiv>
             <AnimatedDiv delay={0.4} variant={{ hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0 } }}>
               <a href="#contact-form" className="contact-hero-cta-btn" onClick={(e) => {
@@ -49,7 +49,7 @@ const Contact = () => {
                     <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22S19 14.25 19 9C19 5.13 15.87 2 12 2ZM12 11.5C10.62 11.5 9.5 10.38 9.5 9S10.62 6.5 12 6.5S14.5 7.62 14.5 9S13.38 11.5 12 11.5Z" fill="white"/>
                   </svg>
                 </div>
-                <p className="contact-card-text">Tvara India Logistics Pvt. Ltd.<br />Plot No. 45, Sector 25,<br />Faridabad, Haryana 121004, India</p>
+                <p className="contact-card-text">Tvara Freight Solutions Pvt. Ltd.<br />Northern India<br />Specialized Import Freight Forwarder</p>
               </AnimatedCard>
 
               <AnimatedCard className="contact-card" delay={0.3}>
@@ -58,7 +58,7 @@ const Contact = () => {
                     <path d="M20 4H4C2.9 4 2.01 4.9 2.01 6L2 18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V6C22 4.9 21.1 4 20 4ZM20 8L12 13L4 8V6L12 11L20 6V8Z" fill="white"/>
                   </svg>
                 </div>
-                <p className="contact-card-text">info@tvaraindia.com</p>
+                <p className="contact-card-text">rohit@tvaraindia.com</p>
               </AnimatedCard>
 
               <AnimatedCard className="contact-card" delay={0.4}>
@@ -76,13 +76,45 @@ const Contact = () => {
                     <path d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.69 14.9 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.55 15.5 21 15.95 21 16.5V20C21 20.55 20.55 21 20 21C10.61 21 3 13.39 3 4C3 3.45 3.45 3 4 3H7.5C8.05 3 8.5 3.45 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z" fill="white"/>
                   </svg>
                 </div>
-                <p className="contact-card-text">+91-01234-567890</p>
+                <p className="contact-card-text">+91 9818991611<br />Rohit Sarna - Director</p>
               </AnimatedCard>
             </StaggeredContainer>
           </div>
         </AnimatedSection>
 
-       
+        {/* Quote Requirements Section */}
+        <AnimatedSection className="why-businesses-trust-section">
+          <div className="why-businesses-container">
+            <div className="trust-content-wrapper">
+              <div className="trust-text-section">
+                <AnimatedTitle className="why-businesses-title" delay={0.1}>What We Need for Your Quote</AnimatedTitle>
+                <AnimatedText className="why-businesses-subtitle" delay={0.2}>To prepare an accurate quotation, please provide the following information:</AnimatedText>
+              </div>
+
+              <StaggeredContainer className="trust-cards-section">
+                <div className="trust-cards-grid">
+                  <AnimatedCard className="trust-card" delay={0.3}>
+                    <div className="trust-icon"><img src="/basil_globe-outline.png" alt="Origin Destination" /></div>
+                    <h3 className="trust-card-title">Origin & Destination</h3>
+                    <p className="trust-card-description">Origin city/port and final consignee location (ICD/warehouse in India).</p>
+                  </AnimatedCard>
+
+                  <AnimatedCard className="trust-card" delay={0.4}>
+                    <div className="trust-icon"><img src="/Group.png" alt="Cargo Details" /></div>
+                    <h3 className="trust-card-title">Cargo Details</h3>
+                    <p className="trust-card-description">Description, HSN/HS code (if known), weight, dimensions, and commodity value.</p>
+                  </AnimatedCard>
+
+                  <AnimatedCard className="trust-card" delay={0.5}>
+                    <div className="trust-icon"><img src="/Group (1).png" alt="Incoterm Frequency" /></div>
+                    <h3 className="trust-card-title">Incoterm & Frequency</h3>
+                    <p className="trust-card-description">Preferred Incoterm (FOB/EXW/CIF/DAP), frequency (one-time/recurring), and desired transit time.</p>
+                  </AnimatedCard>
+                </div>
+              </StaggeredContainer>
+            </div>
+          </div>
+        </AnimatedSection>
 
         {/* Contact Form Section */}
         <AnimatedSection className="contact-form-section" id="contact-form">
