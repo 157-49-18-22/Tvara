@@ -427,3 +427,18 @@
     font-size: 0.85rem;
   }
 }
+
+/* Crafted By Section */
+.footer-crafted {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-crafted p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.9rem;
+  margin: 0;
+  font-weight: 400;
+}

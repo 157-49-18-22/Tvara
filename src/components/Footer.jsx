@@ -64,6 +64,11 @@ const Footer = () => {
             </div>
           </div>
          </div>
+         
+         {/* Crafted By */}
+         <div className="footer-crafted">
+           <p>Crafted by Maydiv Infotech</p>
+         </div>
        </div>
      </footer>
     </div>
