@@ -1,6 +1,21 @@
 /* Contact Page Styles */
 
 /* Contact Hero Section */
+  body {
+    background-color: white;
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  .contact-hero-section {
+    height: 80vh;
+    min-height: 500px;
+    margin-top: -60px;
+    padding-top: 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
 .contact-hero-section {
   height: 82vh;
   background-image: url('/New991.png');
@@ -178,12 +193,12 @@
 }
 
 .contact-form {
-  background: white;
-  padding: 30px;
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  width: 67rem;
-    margin-left: -100px;
+background: white;
+    padding: 14px; 
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    width: 61rem;
+    /* margin-left: -100px; */
     z-index: 100;
 }
 
@@ -409,6 +424,21 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  body {
+    background-color: white;
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  .contact-hero-section {
+    height: 80vh;
+    min-height: 500px;
+    margin-top: -60px;
+    padding-top: 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
   .contact-hero-section {
     height: 100vh;
     min-height: 500px;
@@ -445,6 +475,7 @@
   .contact-card {
     padding: 1.5rem;
   }
+  
   
   .contact-form-section {
     padding: 60px 0;
@@ -494,7 +525,32 @@
   .horizontal-form-group {
     flex: 1;
   }
+   .contact-form-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 0 15px;
+  }
   
+  .contact-form-right {
+    display: none; /* Hide the right side image on mobile */
+  }
+  
+  .contact-form {
+    width: 100%;
+    margin: 0;
+    padding: 25px 20px;
+  }
+  
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .contact-form-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
   .horizontal-form-group-wide {
     flex: 1;
   }
@@ -532,6 +588,7 @@
 }
 
 @media (max-width: 480px) {
+
   /* Hero Section - Mobile */
   .contact-hero-section {
     height: 60vh;
