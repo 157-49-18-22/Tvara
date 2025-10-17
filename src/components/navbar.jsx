@@ -14,8 +14,12 @@ const Navbar = () => {
         {/* Logo */}
         <div className="navbar-logo">
           <a href="/" className="logo-link">
-            <span className="logo-tvara">tvar</span>
-            <span className="logo-india">aindia</span>
+            <img 
+              src="/logo.png" 
+              alt="Tvara India Logo" 
+              className="navbar-logo-img"
+              style={{ height: '60px', width: 'auto' }}
+            />
           </a>
         </div>
 
@@ -31,12 +35,16 @@ const Navbar = () => {
             <li className="navbar-item">
               <a href="/services" className="navbar-link">Services</a>
             </li>
+            <li className="navbar-item">
+              <a href="/contact" className="navbar-link">Contact Us</a>
+            </li>
             
           </ul>
         </div>
 
-        {/* CTA Button */}
+        {/* CTA Buttons */}
         <div className="navbar-cta">
+        
           <a href="/quote" className="cta-button">
             Get a Quote
           </a>
@@ -71,7 +79,9 @@ const Navbar = () => {
           <li className="mobile-menu-item">
             <a href="/services" className="mobile-menu-link" onClick={toggleMenu}>Services</a>
           </li>
-         
+          <li className="mobile-menu-item">
+            <a href="/contact" className="mobile-menu-link" onClick={toggleMenu}>Contact Us</a>
+          </li>
           <li className="mobile-menu-item">
             <a href="/quote" className="mobile-menu-link cta-mobile" onClick={toggleMenu}>Get a Quote</a>
           </li>
